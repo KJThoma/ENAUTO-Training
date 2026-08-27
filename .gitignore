@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- ENAUTO repo additions ---
+
+# Lab credentials
+*.env
+!.env.example
+credentials.yml
+vault-pass*
+
+# Ansible
+*.retry
+inventory/hosts_real*
+
+# Editor
+.vscode/
+.idea/
